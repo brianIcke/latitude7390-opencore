@@ -38,14 +38,6 @@
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -180,34 +172,6 @@
 		</array>
 		<key>Patch</key>
 		<array>
-			<dict>
-				<key>Find</key>
-				<data>T1NJRA==</data>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>Change _OSID to XSID (to avoid match against _OSI patch)</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Replace</key>
-				<data>WFNJRA==</data>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>X09TSQ==</data>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>Change _OSI to XOSI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Replace</key>
-				<data>WE9TSQ==</data>
-			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
