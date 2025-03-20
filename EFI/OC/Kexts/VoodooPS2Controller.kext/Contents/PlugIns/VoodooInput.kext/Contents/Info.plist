@@ -3,84 +3,68 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20G224</string>
+	<string>23H222</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>AlpsHID</string>
+	<string>VoodooInput</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.blankmac.AlpsHID</string>
+	<string>me.kishorprins.VoodooInput</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>AlpsHID</string>
+	<string>VoodooInput</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1.6</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.0d1</string>
+	<string>1.1.6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13A233</string>
+	<string></string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.3</string>
+	<string>14.2</string>
 	<key>DTSDKBuild</key>
-	<string>20E214</string>
+	<string>23C53</string>
 	<key>DTSDKName</key>
-	<string>macosx11.3</string>
+	<string>macosx14.2</string>
 	<key>DTXcode</key>
-	<string>1300</string>
+	<string>1520</string>
 	<key>DTXcodeBuild</key>
-	<string>13A233</string>
+	<string>15C500b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>AlpsHIDEventDriver</key>
+		<key>Voodoo Input</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.blankmac.AlpsHID</string>
-			<key>DeviceUsagePairs</key>
-			<array>
-				<dict>
-					<key>DeviceUsage</key>
-					<integer>2</integer>
-					<key>DeviceUsagePage</key>
-					<integer>65281</integer>
-				</dict>
-				<dict>
-					<key>DeviceUsage</key>
-					<integer>1</integer>
-					<key>DeviceUsagePage</key>
-					<integer>65281</integer>
-				</dict>
-			</array>
+			<string>me.kishorprins.VoodooInput</string>
 			<key>IOClass</key>
-			<string>AlpsHIDEventDriver</string>
+			<string>VoodooInput</string>
 			<key>IOProbeScore</key>
-			<integer>400</integer>
+			<integer>200</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>VoodooInputSupported</key>
+				<true/>
+			</dict>
 			<key>IOProviderClass</key>
-			<string>IOHIDInterface</string>
-			<key>QuietTimeAfterTyping</key>
-			<integer>500</integer>
-			<key>RM,deliverNotifications</key>
-			<true/>
+			<string>IOService</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.11</string>
+	<string>10.10</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 blankmac. All rights reserved.</string>
+	<string>Copyright © 2019 Kishor Prins. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.alexandred.VoodooI2C</key>
-		<string>2.5.2</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>2.0</string>
 		<key>com.apple.kpi.iokit</key>
@@ -91,6 +75,6 @@
 		<string>13.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
-	<string>Safe Boot</string>
+	<string>Root</string>
 </dict>
 </plist>
